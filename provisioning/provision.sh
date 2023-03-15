@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Some variables to make the code cleaner
-phantom_web_user="admin"
+phantom_web_user="soar_local_admin"
 phantom_web_password="password"
 PHANTOM_HOME="/opt/phantom"
 
@@ -102,7 +102,6 @@ fi
 # Announce the URL where Splunk is available now
 echo "**********************************************************************************"
 echo " Congratulations! Your Splunk Phantom instance is running at:"
-echo "       privileged: https://localhost:9999/"
 echo "     unprivileged: https://localhost:9998/"
 echo " Authenticate with ${phantom_web_user}:${phantom_web_password} (username:password)"
 echo "**********************************************************************************"
