@@ -1,0 +1,13 @@
+# Ignore macOS files
+.DS_Store
+
+# Ignore apps by default
+provisioning/apps/*.tgz
+backup/*.tgz
+cache/*
+
+# Ignore Vagrant's folder
+.vagrant
+
+# Ignore SSH keypair
+provisioning/nginx.config/key/phantom_repo_access*
